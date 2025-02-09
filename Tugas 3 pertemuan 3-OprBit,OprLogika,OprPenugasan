@@ -1,0 +1,42 @@
+public class OprBit
+{
+	public static void main(String[] args)
+	{
+		int d = 70;		/* 70 = 0100 0110 */
+		int i = 16;		/* 16 = 0001 0000 */
+		int j = 0;
+		j = d & i;		/* 0 = 0000 0000 */
+		System.out.println("d & i = " + j);
+		j = d | i;		/* 86 = 0101 0110 */
+		System.out.println("d | i = " + j);
+	}
+}
+
+
+
+public class OprLogika
+{
+	public static void main(String[] args)
+	{
+		boolean TI = true;
+		boolean SI = false;
+		System.out.println("TI && SI = " + (TI && SI));
+		System.out.println("TI || SI = " + (TI || SI));
+	}
+}
+
+
+
+public class OprPenugasan
+{
+	public static void main(String[] args)
+	{
+		int ha = 16;
+		int di = 10;
+		int ja = 0;
+		ja = ha + di;
+		System.out.println("ja = ha + di = " + ja);
+		ja += ha;
+		System.out.println("ja += ha " + ja);
+	}
+}
